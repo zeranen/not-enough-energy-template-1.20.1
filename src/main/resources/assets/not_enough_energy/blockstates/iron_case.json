@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "not_enough_energy:block/iron_case"
+    }
+  }
+}
