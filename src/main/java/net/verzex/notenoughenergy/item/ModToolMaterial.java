@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-        CHAO(5, 175000, 75.0f, 15.0f, 150, () -> Ingredient.ofItems(ModItems.IRON_PLATE));
+        CHAO(5, 175000, 155.0f, 15.0f, 350, () -> Ingredient.ofItems(ModItems.IRON_PLATE));
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;

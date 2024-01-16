@@ -14,7 +14,7 @@ import net.verzex.notenoughenergy.NotEnoughEnergy;
 public class ModBlocks {
 
     public static final Block IRON_CASE = registerBlock("iron_case",
-    new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f,10f)));
+    new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0f,10f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

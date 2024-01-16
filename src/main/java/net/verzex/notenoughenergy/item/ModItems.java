@@ -15,6 +15,7 @@ public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item IRON_PLATE = registerItem("iron_plate", new Item(new FabricItemSettings()));
+    public static final Item MELTED_IRON_INGOT = registerItem("melted_iron_ingot", new Item(new FabricItemSettings()));
     public static final Item GOLD_PLATE = registerItem("gold_plate", new Item(new FabricItemSettings()));
     public static final Item URANIUM_ROD = registerItem("uranium_rod", new Item(new FabricItemSettings()));
     public static final Item CHAO_PICKAXE = registerItem("chao_pickaxe",
