@@ -14,6 +14,9 @@ import net.verzex.notenoughenergy.NotEnoughEnergy;
 public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item IRON_CORNER = registerItem("iron_corner", new Item(new FabricItemSettings()));
+    public static final Item IRON_MECHANISM_CASE = registerItem("iron_mechanism_case", new Item(new FabricItemSettings()));
+    public static final Item BIG_IRON_PLATE = registerItem("big_iron_plate", new Item(new FabricItemSettings()));
     public static final Item IRON_PLATE = registerItem("iron_plate", new Item(new FabricItemSettings()));
     public static final Item MELTED_IRON_INGOT = registerItem("melted_iron_ingot", new Item(new FabricItemSettings()));
     public static final Item GOLD_PLATE = registerItem("gold_plate", new Item(new FabricItemSettings()));

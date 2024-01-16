@@ -19,6 +19,9 @@ public class ModItemsGroups {
                         entries.add(ModItems.URANIUM_ROD);
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.IRON_PLATE);
+                        entries.add(ModItems.IRON_CORNER);
+                        entries.add(ModItems.IRON_MECHANISM_CASE);
+                        entries.add(ModItems.BIG_IRON_PLATE);
                         entries.add(ModItems.MELTED_IRON_INGOT);
                         entries.add(ModItems.GOLD_PLATE);
                         entries.add(ModItems.IRON_HAMMER);
