@@ -3,9 +3,7 @@ package net.verzex.notenoughenergy.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -14,6 +12,8 @@ import net.verzex.notenoughenergy.NotEnoughEnergy;
 public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item FIRE_BOW = registerItem("fire_bow", new Item(new FabricItemSettings()));
+    public static final Item SMALL_COPPER_WIRES = registerItem("small_copper_wires", new Item(new FabricItemSettings()));
     public static final Item IRON_CORNER = registerItem("iron_corner", new Item(new FabricItemSettings()));
     public static final Item IRON_MECHANISM_CASE = registerItem("iron_mechanism_case", new Item(new FabricItemSettings()));
     public static final Item BIG_IRON_PLATE = registerItem("big_iron_plate", new Item(new FabricItemSettings()));
@@ -22,7 +22,13 @@ public class ModItems {
     public static final Item GOLD_PLATE = registerItem("gold_plate", new Item(new FabricItemSettings()));
     public static final Item URANIUM_ROD = registerItem("uranium_rod", new Item(new FabricItemSettings()));
     public static final Item CHAO_PICKAXE = registerItem("chao_pickaxe",
-            new PickaxeItem(ModToolMaterial.CHAO, 5, 3f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.CHAOPX, 4, 3f, new FabricItemSettings()));
+    public static final Item CHAO_SWORD = registerItem("chao_sword",
+            new SwordItem(ModToolMaterial.CHAOSWO, 554, 10f, new FabricItemSettings()));
+    public static final Item CHAO_AXE = registerItem("chao_axe",
+            new AxeItem(ModToolMaterial.CHAOAX, 14, 3f, new FabricItemSettings()));
+    public static final Item CHAO_SHOVEL = registerItem("chao_shovel",
+            new ShovelItem(ModToolMaterial.CHAOSW, 4, 3f, new FabricItemSettings()));
     public static final Item IRON_HAMMER = registerItem("iron_hammer", new Item(new FabricItemSettings().maxDamage(128)));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);

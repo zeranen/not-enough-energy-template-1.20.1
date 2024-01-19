@@ -1,12 +1,20 @@
 package net.verzex.notenoughenergy.item;
 
+
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-        CHAO(5, 175000, 155.0f, 15.0f, 350, () -> Ingredient.ofItems(ModItems.IRON_PLATE));
+        CHAOPX(5, 175000, 155.0f, 15.0f, 350,
+                () -> Ingredient.ofItems(ModItems.IRON_PLATE)),
+        CHAOSW(5, 175000, 155.0f, 10f, 350,
+                () -> Ingredient.ofItems(ModItems.IRON_PLATE)),
+        CHAOAX(5, 175000, 155.0f, 20f, 350,
+                () -> Ingredient.ofItems(ModItems.IRON_PLATE)),
+        CHAOSWO(0, 175000, 155.0f, 75000, 350,
+                () -> Ingredient.ofItems(ModItems.IRON_PLATE));
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;

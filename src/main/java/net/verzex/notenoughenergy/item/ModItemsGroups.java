@@ -19,6 +19,8 @@ public class ModItemsGroups {
                         entries.add(ModItems.URANIUM_ROD);
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.IRON_PLATE);
+                        entries.add(ModItems.FIRE_BOW);
+                        entries.add(ModItems.SMALL_COPPER_WIRES);
                         entries.add(ModItems.IRON_CORNER);
                         entries.add(ModItems.IRON_MECHANISM_CASE);
                         entries.add(ModItems.BIG_IRON_PLATE);
@@ -26,6 +28,9 @@ public class ModItemsGroups {
                         entries.add(ModItems.GOLD_PLATE);
                         entries.add(ModItems.IRON_HAMMER);
                         entries.add(ModItems.CHAO_PICKAXE);
+                        entries.add(ModItems.CHAO_AXE);
+                        entries.add(ModItems.CHAO_SWORD);
+                        entries.add(ModItems.CHAO_SHOVEL);
                         entries.add(ModBlocks.IRON_CASE);
 
 

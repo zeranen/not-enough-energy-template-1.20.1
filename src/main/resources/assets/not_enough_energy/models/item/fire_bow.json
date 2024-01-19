@@ -1,0 +1,8 @@
+{
+  "parent": "Minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "not_enough_energy:item/fire_bow_model_V"
+  }
+
+}
