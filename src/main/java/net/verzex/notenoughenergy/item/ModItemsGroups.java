@@ -12,12 +12,13 @@ import net.verzex.notenoughenergy.block.ModBlocks;
 
 public class ModItemsGroups {
 
-    public static final ItemGroup NEE = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup аNEE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(NotEnoughEnergy.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("Not Enough Energy"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.URANIUM_ROD);
                         entries.add(ModItems.RUBY);
+                        entries.add(ModItems.CHAO_FRUIT);
                         entries.add(ModItems.IRON_PLATE);
                         entries.add(ModItems.FIRE_BOW);
                         entries.add(ModItems.SMALL_COPPER_WIRES);

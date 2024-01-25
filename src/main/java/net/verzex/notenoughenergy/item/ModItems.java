@@ -12,6 +12,7 @@ import net.verzex.notenoughenergy.NotEnoughEnergy;
 public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item CHAO_FRUIT = registerItem("chao_fruit", new Item(new FabricItemSettings().food(ModFoodComponent.CHAO_FRUIT)));
     public static final Item FIRE_BOW = registerItem("fire_bow", new Item(new FabricItemSettings()));
     public static final Item SMALL_COPPER_WIRES = registerItem("small_copper_wires", new Item(new FabricItemSettings()));
     public static final Item IRON_CORNER = registerItem("iron_corner", new Item(new FabricItemSettings()));
@@ -22,11 +23,11 @@ public class ModItems {
     public static final Item GOLD_PLATE = registerItem("gold_plate", new Item(new FabricItemSettings()));
     public static final Item URANIUM_ROD = registerItem("uranium_rod", new Item(new FabricItemSettings()));
     public static final Item CHAO_PICKAXE = registerItem("chao_pickaxe",
-            new PickaxeItem(ModToolMaterial.CHAOPX, 4, 3f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.CHAOPX, 9, 3f, new FabricItemSettings()));
     public static final Item CHAO_SWORD = registerItem("chao_sword",
-            new SwordItem(ModToolMaterial.CHAOSWO, 554, 10f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.CHAOSWO, 554, 30f, new FabricItemSettings()));
     public static final Item CHAO_AXE = registerItem("chao_axe",
-            new AxeItem(ModToolMaterial.CHAOAX, 14, 3f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.CHAOAX, 24, 3f, new FabricItemSettings()));
     public static final Item CHAO_SHOVEL = registerItem("chao_shovel",
             new ShovelItem(ModToolMaterial.CHAOSW, 4, 3f, new FabricItemSettings()));
     public static final Item IRON_HAMMER = registerItem("iron_hammer", new Item(new FabricItemSettings().maxDamage(128)));

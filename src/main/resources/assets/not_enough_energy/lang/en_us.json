@@ -2,12 +2,15 @@
   "item.not_enough_energy.ruby": "Ruby",
   "item.not_enough_energy.uranium_rod": "Uranium rod",
   "item.not_enough_energy.iron_plate": "Iron plate",
-  "item.not_enough_energy.small_copper_wires": "Copper ",
+  "item.not_enough_energy.small_copper_wires": "Copper wires",
   "item.not_enough_energy.iron_hammer": "Iron hammer",
   "item.not_enough_energy.gold_plate": "gold plate",
   "item.not_enough_energy.melted_iron_ingot": "Melting iron Ingot",
   "block.not_enough_energy.iron_case": "Iron case",
   "itemgroup.ruby": "Ruby NEE Group",
-  "item.not_enough_energy.chao_pickaxe": "Chaotic pickaxe"
+  "item.not_enough_energy.chao_pickaxe": "Chaotic pickaxe",
+  "item.not_enough_energy.chao_axe": "Chaotic axe",
+  "item.not_enough_energy.chao_shovel": "Chaotic shovel",
+  "item.not_enough_energy.chao_sword": "Chaotic sword"
 
 }

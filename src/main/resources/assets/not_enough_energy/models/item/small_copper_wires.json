@@ -1,3 +1,8 @@
 {
-  "parent": "not_enough_energy:item/small_copper_wires"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "not_enough_energy:item/small_copper_wires"
+  }
+
+
 }
