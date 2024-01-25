@@ -5,14 +5,14 @@
 	"name": "Not Enough Energy",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"VERZEX"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/not-enough-energy/icon.png",
+	"icon": "assets/dev_placeholder.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -29,7 +29,7 @@
 		"not-enough-energy.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.24",
+		"fabricloader": ">=0.14.21",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
